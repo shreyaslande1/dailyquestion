@@ -5,9 +5,9 @@ public class fibonacci {
         Scanner in = new Scanner(System.in);
         System.out.print("enter the number you want to print fibonacci series up to that number: ");
         int n = in.nextInt();
-        fibonacci(n);
+        fibo(n);
     }
-    static void fibonacci(int n){
+    static void fibo(int n){
         
         for(int i=0;i<n;i++){
             if(i==0){
